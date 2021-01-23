@@ -59,7 +59,7 @@ def checkWinner():
 
 def checkDraw():
     conter = 0
-    for x in range(0,10):
+    for x in field:
         if x == "X" or x == "O":
             counter += 1
             if counter == 9:
